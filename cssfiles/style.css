@@ -18,8 +18,9 @@ li {
       text-align: center;
       text-indent: 3em;
       background-color: rgb(39, 39, 104);
-      background-image:url(softrest_company/images/pictures/rest.jpg);
+      background-image:url(images/pictures/beach_sea_panorama.jpg);
       height: 100%;
+      width: 100%;
     }  
 
     /* Navigation for the unordered list-CSS */
@@ -27,7 +28,8 @@ li {
       list-style-type:none;
       margin: 0;
       padding: 0;
-      overflow: hidden;           
+      overflow: hidden;    
+      height: 50%;       
     }
 
     /* list item CSS */
