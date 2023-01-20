@@ -40,4 +40,6 @@ body{
     }
     li a:hover {
       color: grey;
+      background-color: rgb(68, 68, 90);
+      border-radius: 30px;
     }
