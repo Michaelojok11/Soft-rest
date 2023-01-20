@@ -1,11 +1,40 @@
 body{
     margin: 0;
-    background-image: url("../images/pictures/background_images/rainleaf.jpg");
-}
+  }
 
 .banner {
-   
-    height: 50vh;
+    background-image: url("../images/pictures/background_images/final.jpg");
+    height: 90vh;
     margin: 0;
     border: none;
+    padding-top: 1px;
+    }
+
+    /* navigation */
+    .navigation {
+      flex: 1;
+      margin: 10px;
+      float: right;
+      text-align: center;
+      text-indent: 3em;
+      padding: 10px;
+    }
+    ul{
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    li {
+      float: left;
+    }
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      color:black;
     }
