@@ -7,19 +7,7 @@ li {
   color: white;
 }
       h2 {text-align: center;}
-.row {
-      display: flex; 
-    }
-    /* logo css */
-    .logo {
-       /* additionally, equal width */
-      padding: 1em;
-      margin: 0px;
-      float: left;
-      width: 40%;
-      background-color:rgba(8, 46, 123, 0.775);
-      
-    }  
+ 
 
     /* start of the navigation menu */
     .navigation {
@@ -29,7 +17,9 @@ li {
       float: right;
       text-align: center;
       text-indent: 3em;
-      background-color: rgba(8, 46, 123, 0.775);
+      background-color: rgb(39, 39, 104);
+      background-image:url(softrest_company/images/pictures/rest.jpg);
+      height: 100%;
     }  
 
     /* Navigation for the unordered list-CSS */
@@ -70,34 +60,10 @@ li a:hover {
 
 /* End of breadcrumb*/
 
-/* Social media icons CSS */
-    .socialmedia {
-      flex: 1;
-      padding: 1em;
-      margin: 10px;
-      float: right;
-    }  
+ 
 
     /*rows and columns for Mission, Vision and Core values */
       .row {
       display: flex; /*  */
     }
-    .mission {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      margin: 10px;
-    }   
-    .vision {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      margin: 10px;
-      }   
-    .corevalues {
-      flex: 1; /* additionally, equal width */
-      padding: 1em;
-      border: solid;
-      margin: 10px;
-      } 
-/* End of the rows and columns for Mission, Vision and Core values */
+   
