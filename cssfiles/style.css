@@ -67,5 +67,6 @@ li a:hover {
     /*rows and columns for Mission, Vision and Core values */
       .row {
       display: flex; /*  */
+      background-image: url(images/pictures/river.jpg);
     }
    
