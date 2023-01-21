@@ -1,10 +1,11 @@
+/* body */
 body{
     margin: 0;
   }
-
+/* banner */
 .banner {
     background-image: url("../images/pictures/background_images/final.jpg");
-    height: 90vh;
+    height: 80vh;
     margin: 0;
     border: none;
     padding-top: 1px;
@@ -19,6 +20,7 @@ body{
       text-indent: 3em;
       padding: 10px;
     }
+    /* unordered lists in navigation */
     ul{
       display: flex;
       list-style-type: none;
@@ -29,6 +31,7 @@ body{
     li {
       float: left;
     }
+    /* list items in a ref (href) */
     li a {
       display: block;
       color: black;
@@ -38,29 +41,39 @@ body{
       font-size: 20px;
       color:black;
     }
+    /* hover */
     li a:hover {
       color: grey;
       background-color: rgb(68, 68, 90);
       border-radius: 20px;
     }
-
+/* heading 1 */
     h1{
       font-family: Verdana, Geneva, Tahoma, sans-serif;
       }
+
+      /* coreinfo */
       .coreinfo {
         text-align:center;
       }
+      /* all paragraphs */
       p {
         font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
       }
+
+      /* button */
       button{
         
         border-radius: 20px;
-        background-color: rgb(175, 178, 141);
-        color: black;
-       
-
+        background-color: rgb(175, 178, 141);     
       }
+    /* a */
       a {
         text-decoration: none;
+        color: black;
+      }
+      /* heading 3 */
+      h3 {
+        color: rgb(50, 23, 95);
+        font-family:cursive
       }
