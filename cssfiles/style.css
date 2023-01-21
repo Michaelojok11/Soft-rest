@@ -55,5 +55,12 @@ body{
       }
       button{
         
+        border-radius: 20px;
+        background-color: rgb(175, 178, 141);
+        color: black;
+       
 
+      }
+      a {
+        text-decoration: none;
       }
