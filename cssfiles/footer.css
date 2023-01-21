@@ -1,0 +1,17 @@
+.footer{
+    display: flex;
+    height: 150px;
+    background-color: rgb(162, 153, 153);
+}
+.footercolumn1 {
+    width: 33.3%;
+    text-align: center;
+}
+.footercolumn2{
+    width: 33.3%;
+    text-align: center;
+}
+.footercolumn3{
+    width: 33.3%;
+    text-align: center;
+}
