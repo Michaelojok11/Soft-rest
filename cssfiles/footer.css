@@ -1,6 +1,6 @@
 .footer{
     display: flex;
-    height: 150px;
+    height: 160px;
     background-color: rgb(162, 153, 153);
 }
 .footercolumn1 {
@@ -21,8 +21,8 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
 }
-.bottombar {
+/* .bottombar {
     height: 30px;
     background-color: rgb(162, 153, 153);
     text-align: center;
-}
+} */
