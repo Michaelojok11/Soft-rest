@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+  }
+/* banner */
+.banner {
+    background-image: url("../images/pictures/background_images/beach.jpg");
+    height: 80vh;
+    margin: 0;
+    border: none;
+    padding-top: 1px;
+    flex: 1;
+    }
+
+    /* navigation */
+    .navigation {
+      margin: 10px;
+      float: right;
+      text-align: center;
+      text-indent: 3em;
+      padding: 10px;
+    }
+    /* unordered lists in navigation */
+    ul{
+      display: flex;
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+    li {
+      float: left;
+    }
+    /* list items in a ref (href) */
+    li a {
+      display: block;
+      color: black;
+      text-align: center;
+      text-decoration: none;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      font-size: 20px;
+      color:black;
+    }
+    /* hover */
+    li a:hover {
+      color: grey;
+      background-color: rgb(68, 68, 90);
+      border-radius: 20px;
+    }

@@ -8,12 +8,15 @@
 
     <!-- style css -->
    <link rel="stylesheet" type="text/css" href="cssfiles/style.css">
+   
+   <!-- header -->
+<link rel="stylesheet" type="text/css" href="cssfiles/header.css">
 
    <!-- footer -->
    <link rel="stylesheet" type="text/css" href="cssfiles/footer.css">
 
-   <!-- contact -->
-   <link rel="stylesheet" type="text/css" href="cssfiles/contact.css">
+   <!-- socials -->
+   <link rel="stylesheet" type="text/css" href="cssfiles/socials.css">
 
     <title>Softrest company </title>
 </head>
@@ -51,21 +54,54 @@
   <div class="button">
     <button><a href="aboutus.html">About Us</a></button>
     <button><a href="contact.html">Contact Us</a></button>
-  </div>
- 
+  </div> 
  </div>
   </div>
 
+<!-- middle section -->
+  <div style="text-align: center;color: rgb(78, 130, 132);">
+    <h1>OUR MISSION </h1>
+
+<br>
+<br>
+<br>
+  </div>
+  <!-- End of middle section -->
 
 
-  
+
   <!-- footer -->
   <footer>
     <div class="footer">
-      <div class="footercolumn1"> Footer1</div>
-      <div class="footercolumn2"> Footer2</div>
-      <div class="footercolumn3"> Footer3</div>
+      <!-- footercolumn1 -->
+      <div class="footercolumn1">
+        <div><P style="font-size: 30px;color: rgb(158, 58, 58);">Soft-rest</P>
+          <p>"Relieve your stress"</p>
+          <p style="font-size: 13px;">&copy; Soft-rest 2023 </p>   
+           </div>
+      </div>
+
+      <!-- footercoluumn2 -->
+      <div class="footercolumn2">
+        <p>contact@softrest.com</p>
+        <p>(+46)771296207</p>
+        <p>Roonbladsgattan 2A Malmo</p>
+
+      </div>
+
+      <!--footercolumn3  -->
+
+      <div class="footercolumn3"> <h3>Our Social Media </h3>
+        <div class="socials">
+          <a href="https://youtu.be/wHFflWvii3M"><img src="images/pictures/socials/Facebook fit.jpg" alt="facebook" height="25" width="30"></a>&nbsp;&nbsp;
+          <a href="#"><img src="images/pictures/socials/Instagram.png" alt="instagram" height="25" width="30"></a> &nbsp;&nbsp;
+          <a href="#"><img src="images/pictures/socials/linkedIn.png" alt="linkedIn" height="25" width="30"></a> &nbsp;&nbsp;
+          <a href="#"><img src="images/pictures/socials/twitter.png" alt="twitter" height="25" width="30"></a> &nbsp;&nbsp;
+          <a href="#"><img src="images/pictures/socials/youtube.png" alt="youtube" height="25" width="30"></a> &nbsp;&nbsp;
+        </div>
+      </div>
     </div>
+ 
   </footer>
    
 </body>
@@ -73,312 +109,3 @@
 
 
 
-<!-- <!DOCTYPE html>
-<html>
-<head>
-    <style>
-
-    /* styling for the breadcrumbs */
-.breadcrumbnav {
-  list-style: none;
-  text-align: center;
-  background-image: url(images/pictures/contactus.jpg) ;
-  height: 50vh
-}
-.breadcrumbnav li {
-  display: inline-block;
-  float: none;
-}
-.breadcrumbnav li::after {
-  content: " >> ";
-}
-.breadcrumbnav li:last-child::after {
-  content: " ";
-}
-/* End of breadcrumb*/
-
-    /*rows */
-      .row {
-      display: flex; 
-    }
-    .row1 {
-      flex: 1; 
-      padding: 1em;
-      border: solid;
-      margin: 10px;
-     }   
-    .row2 {
-      flex: 1; 
-      padding: 1em;
-      border: solid;
-      margin: 10px;
-      }   
-
-      .contact {
-        display: flex;
-      }
-      
-    
-          /* footer */
-          *{
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box;
-        }
-        .footer-container {
-            background-color: rgb(104, 141, 114);
-            padding-bottom: 3rem;
-            padding-top: 1rem;
-        }
-        .footer {
-            width: 100%;
-            height:32vh;
-            background-color:rgb(104, 141, 114);
-            color: white;
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            margin: 0 auto;
-        }
-        .footer-col {
-            display: flex;
-            flex-direction: column;
-            margin-right: 8rem;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        .footer-col h3 {
-            margin-bottom: 2rem;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        .footer-col a {
-            color: white;
-            text-decoration: none;
-            margin-bottom: 0.5rem;
-        }
-        .footer-col a:hover {
-            color: blue;
-            transition: 0.3s ease-out;
-        } 
-        .footer-email-form h3 {
-            margin-bottom: 2rem;
-            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-        }
-        #footer-email {
-            width: 250px;
-            height: 40px;
-            border: radius 4px;
-            outline: none;
-            border: none;
-            padding-left: 0.5rem;
-            font-size: 1rem;
-            margin-bottom: 1rem;
-        }
-        #footer-email::placeholder {
-            color: rgb(104, 141, 114);
-        }
-        #footer-email-btn {
-            width: 100px;
-            height: 40px;
-            border-radius: 4px;
-            background-color: rgb(104, 141, 114);
-            border: none;
-            color: white;
-            font-size: 1rem;
-        }
-        #footer-email-btn:hover {
-            cursor: pointer;
-            background-color: skyblue;
-            transition: all 0.4s ease-out;
-        }
-        hr {
-          height: 5px;
-          background-color: white;
-        }
-        /* End of footer */
-
-    </style>
-    <title> Services for Green Agro</title>
-</head>
-<body>
-  <!-- code for the top bar -->
-  <div class="topbar">
-    <div class="topbar1">
-      <img src="telephone.png" alt="#" height="20" width="20"> (+46) 771296207 </a>
-    </div>
-    <div class="topbar1">
-      <img src="address.png" alt="#" width="20" height="20"> P.O.BOX 165, Malmo, Sweden </a>
-    </div>
-    <div class="topbar1">
-      <img src="email.png" alt="#" width="20" height="20"> contact@greenagribusiness.com</a>
-    </div>
-    </div> 
-
-  <!-- logo and navigation bar-->
-    <div class="row">
-      <!-- colum 1 -->
-        <div class="logo"> <img src="Logo1.jpg" alt="Green Agro Logo" width="150" height="60"></div>
-<!-- column 2 -->
-        <div class="navigation"> 
-          <ul> 
-            <!-- list item 1 -->
-            <li>
-              <a href="home.html" style="text-decoration: none;"> HOME </a>
-            </li> 
-            <!-- list item 2 -->
-            <li>
-              <a href="About.html" style="text-decoration: none;">ABOUT US </a></li> 
-              <!-- list item 3 -->
-             <li>
-              <a href="services.html" style="text-decoration: none;">SERVICES </a></li>
-              <!-- list item 4 -->
-             <li>
-              <a href="blogs.html" style="text-decoration: none;">BLOGS </a>
-            </li>
-            <!-- list item5 -->
-             <li>
-              <a href="contactus.html" style="text-decoration: none;">CONTACT US</a>
-            </li>
-            <li>
-              <a href="products.html" style="text-decoration: none;">PRODUCTS</a>
-            </li>
-            
-          </ul>
-        
-          </div>
-        <div>
-          <div class="socialmedia">
-            <img src="Facebook fit.jpg" alt="facebook" width="25" height="25">
-            <img src="linkedIn.png" alt="facebook" width="25" height="25">
-            <img src="Instagram.png" alt="facebook" width="25" height="25">
-            <img src="youtube.png" alt="facebook" width="25" height="25">
-            <img src="twitter.png" alt="facebook" width="25" height="25">
-          </div>
-
-        </div>
-    </div>
-
-    <!-- breadcrumbs -->
-    <div id="container">
-      <ol class="breadcrumbnav">            
-        <h1 style="padding-top: 120px;font-size: x-large;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: white;"> Contact Us</h1>
-        <li ><a href="#" style="color: white;"> Home >> Contact Us </a></li>           
-      </ol>
-    </div>
-    <!-- End of breadcrumbs -->
-   
-<br> 
-<br>
-<br>
-<!-- row 1 -->
-    <div class="row">
-      <!-- mission row start-->
-      <div class="row1" style="border: none;">
-        <div style="position:relative; top: -30px;">
-          <h2 style="padding-top:5px; text-align: left;font-size: large;"> Contact Us</h2>
-          <h1 style="font-size:x-large;text-align: left;">Have a question for us? Let us know & we will respond!</h1>
-          <p>Fill out this form to get in touch with our team. If your question is more urgent, you can use the information below to call or email us (or come to our office if you want to scare our staff)</p>
-          <div class="contact">
-            <div class="contact1"><img src="email.png" alt="image" height="18" width="18"> contact@greenagribusiness.com</div>
-            &nbsp;&nbsp;&nbsp;&nbsp;
-            <div class="contact2" style="padding-right: 10px;">   <img src="phone-call.png" alt="phone" height="18" width="18"> (+46) 771296207</div>
-          </div>
-          <p><img src="address.png" alt="address" height="18" width="18"> Roonbladsgattan 2A , Malmo, Skane, Sweden</p>
-        </div>
-        </div>
-        <!-- mission row end -->
-
-       <!-- row 2-->
-      <div class="row2" style="border-width: 1px;">
-        <form action="">
-          <input type="text" id="fname" name="fname" placeholder="First Name" style="width: 47%;">&nbsp;&nbsp;&nbsp;
-          <input type="text" id="lname" name="lname" placeholder="Last Name" style="width: 47%;">
-          <br>
-          <br>
-          <input type="text" id="e-mail" name="e-mail" placeholder="e-mail address" style="width: 47%;">&nbsp;&nbsp;&nbsp;
-          <input type="text" id="phonenumber" name="phone number" placeholder="Phone Number" style="width: 47%;">
-          <br>
-          <br>
-      
-          <!-- reason for enquiry   -->
-          <select id="contact us" name="let us know" style="width: 610px; background-color: rgb(238, 234, 234);">
-            <option value="Official">Official</option>
-            <option value="reason for contacting us" selected style="text-align: center;">Reason for enquiry </option>
-            <option value="Official">Official</option>
-            <option value="agriculture">Smart agriculture</option>
-            <option value="New products">New products</option>
-          </select>
-          <br>
-          <!-- text area -->
-          <textarea name="message" id="inquiry_message" cols="80" rows="6"></textarea>
-          <br> 
-          <!-- submit button -->
-          
-          <input type="submit" style="width: 610px; background-color: rgb(130, 156, 130);">
-          </form>
-          
-        </div>
- </div>
-
- <br>
-    <br>
-     <!-- map location  -->
-     <h2 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: large;">Follow this map</h2>
-     <iframe 
-     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d36098.38249428352!2d12.940213494253857!3d55.56460605874861!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653a1167f08609f%3A0x8422b9107f0a4a46!2sPieplows%20Brasserie!5e0!3m2!1sen!2sse!4v1673647104587!5m2!1sen!2sse" width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-<br>
-<br>
-<br>
-
-<!-- footer -->
-<footer>
-  <div class="footer-container">
-      <div class="footer">
-          <!-- footer column 1 -->
-          <div class="footer-col">
-              <a href=""><img src="food.jpg" alt="food" height="150" width="150"></a>
-              <div class="socialmediaicons">
-                  <img src="Facebook fit.jpg" alt="facebook" width="27" height="25">
-                  <img src="linkedIn.png" alt="facebook" width="27" height="25">
-                  <img src="Instagram.png" alt="facebook" width="27" height="25">
-                  <img src="youtube.png" alt="facebook" width="27" height="25">
-                  <img src="twitter.png" alt="facebook" width="27" height="25">
-                </div>
-          </div>
-  <!-- contact information -->
-      <div class="footer-col">
-          <h3>Contact Info</h3>
-          <a href=""><img src="email.png" alt="email-address" width="20" height="20" >contact@greenagribusiness.com</a>
-          <a href=""><img src="phone-call.png" alt="phone" height="20" width="20"> (+46) 771296207</a>
-          <a href=""><img src="address.png" alt="address" height="20" width="20"> P.O.Box 165, Malmo, Sweden</a>          
-      </div>
-      <!-- support links -->
-      <div class="footer-col">
-          <h3>Support Links</h3>
-          <a href="home.html">Home</a>
-          <a href="About.html">About us</a>
-          <a href="services.html">Services</a>
-          <a href="blogs.html">Blogs</a>
-          <a href="products.html">products</a>
-      </div>
-     
-      <!-- Newsletter -->
-      <div class="footer-email-form">
-          <h3>Join our newsletter</h3>
-          <input type="email" placeholder="Enter your email address" id="footer-email">
-      <input type="submit" value="Sign up"
-      id="footer-email-btn">
-      </div>
-                </div>
-                <!-- copyrights -->
-                <br><br>
-                <hr>
-                <p style="color:white; font-size: medium; text-align: center;padding-top: 10px;">
-                  &copy;2022 All rights Reserved Green Agribusiness </p>
-  </div>        
-</footer>
-<!-- end of footer -->
-
-
-</body>
-
-</html> -->
