@@ -1,7 +1,34 @@
 body{
     margin: 0;
   }
-
+/* banner */
+/* banner for homepage */
+.banner {
+    background-image: url("../images/pictures/background_images/beach.jpg");
+    height: 80vh;
+    margin: 0;
+    border: none;
+    padding-top: 1px;
+    flex: 1;
+    }
+/* banner for about us */
+    .banneraboutus {
+        background-image: url("../images/pictures/background_images/banners/banneraboutus.jpg");
+        height: 50vh;
+        margin: 0;
+        border: none;
+        padding-top: 1px;
+        flex: 1;
+        }
+/* banner for product */
+.bannerproduct {
+    background-image: url("../images/pictures/background_images/banners/bannerproduct.jpg");
+    height: 50vh;
+    margin: 0;
+    border: none;
+    padding-top: 1px;
+    flex: 1;
+    }
     /* navigation */
     .navigation {
       margin: 10px;

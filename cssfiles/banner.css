@@ -1,9 +1,0 @@
-/* banner */
-.banner {
-    background-image: url("../images/pictures/background_images/beach.jpg");
-    height: 80vh;
-    margin: 0;
-    border: none;
-    padding-top: 1px;
-    flex: 1;
-    }
