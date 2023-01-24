@@ -11,6 +11,7 @@ display: flex ;
     border-radius: 15px;
     text-align: center;
     height: 200px;
+    background-image: url(../images/pictures/background_images/drips/drip3.jpg);
 }
 .contactform2{
    padding: 10px; 
