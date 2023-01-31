@@ -72,3 +72,13 @@ body{
       background-color: rgb(68, 68, 90);
       border-radius: 20px;
     }
+    .sub-menu-1{
+      display: none;
+  }
+  .navigation ul li:hover .sub-menu-1 {
+      display: block;
+      position: absolute;
+      background-color:rgb(33, 33, 135) ;
+      margin-top: 15px;
+      margin-left: 15px;
+  }
